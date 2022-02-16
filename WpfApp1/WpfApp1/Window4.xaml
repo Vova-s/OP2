@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp1.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <Button Content="Main Window" HorizontalAlignment="Left" Margin="600,330,0,0" VerticalAlignment="Top" Width="115" Height="40" Click="Button_Click"/>
+
+        <Ellipse x:Name="el" Width="200" Height="200" Margin="30,70,562,149">
+            <Ellipse.Fill>
+                <ImageBrush x:Name="img" ImageSource="C:\Users\VOVAN\source\repos\WpfApp1\WpfApp1\78002.JPG"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Label Content="Симчич Володимир Антонович" HorizontalAlignment="Left" Height="65" Margin="360,55,0,0" VerticalAlignment="Top" Width="400" FontWeight="Bold" FontSize="24"/>
+        <Label Content="Дякую за увагу" HorizontalAlignment="Left" Height="120" Margin="395,205,0,0" VerticalAlignment="Top" Width="320" FontSize="20" FontWeight="Bold"/>
+
+
+
+    </Grid>
+</Window>
