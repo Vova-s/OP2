@@ -1,0 +1,22 @@
+﻿<Window x:Class="Lab2_sem2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2_sem2"
+        mc:Ignorable="d"
+   Title="MainWindow" Height="450" Width="800">
+    <Grid Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="97*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="add/delete student" HorizontalAlignment="Left" Margin="84,100,0,0" VerticalAlignment="Top" Width="123" Height="25" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Click="Button_Click"/>
+        <Button Content="tic-tac-toe" HorizontalAlignment="Left" Margin="85,140,0,0" VerticalAlignment="Top" Width="123" Height="25" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Click="Button_Click_1"/>
+        <Button Content="Calculator" HorizontalAlignment="Left" Margin="85,180,0,0" VerticalAlignment="Top" Width="123" Height="25" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Click="Button_Click_2"/>
+        <Button Content="Info" HorizontalAlignment="Left" Margin="85,220,0,0" VerticalAlignment="Top" Width="123" Height="25" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Click="Button_Click_4"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="425,346,0,0" VerticalAlignment="Top" Width="123" Height="25" Grid.Column="1" Background="#FFF32727" Click="Button_Click_3"/>
+        <Label Content="Menu" HorizontalAlignment="Left" Margin="93,31,0,0" VerticalAlignment="Top" FontFamily="SimSun" FontSize="36" Grid.ColumnSpan="2" FontWeight="Bold" Width="157"/>
+
+    </Grid>
+</Window>
