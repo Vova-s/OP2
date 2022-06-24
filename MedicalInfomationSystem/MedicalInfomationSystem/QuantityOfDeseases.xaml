@@ -1,0 +1,18 @@
+﻿<Window x:Class="MedicalInfomationSystem.QuantityOfDeseases"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedicalInfomationSystem"
+        mc:Ignorable="d"
+        Title="QuantityOfDeseases" Height="450" Width="800">
+    <Grid>
+        <Label Content="Кількість хворих деякою хворобою" FontSize="22
+               " HorizontalAlignment="Left" Margin="135,0,0,0" VerticalAlignment="Top"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="610,1,0,0" VerticalAlignment="Top" Height="37" Width="190" Click="Button_Click"/>
+        <DataGrid x:Name ="Query2"  FontSize="14" VerticalAlignment = "Top" Margin="0,43,0,0" Height="391"/>
+        <ComboBox x:Name="combobox1" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Back" HorizontalAlignment="Left" Height="40" Margin="506,0,0,0" VerticalAlignment="Top" Width="104" Background="{DynamicResource {x:Static SystemColors.WindowFrameBrushKey}}" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

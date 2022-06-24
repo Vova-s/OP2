@@ -1,0 +1,35 @@
+﻿<Window x:Class="MedicalInfomationSystem.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedicalInfomationSystem"
+        mc:Ignorable="d"
+        Title="Amin Panel" Height="600" Width="900" ResizeMode="NoResize">
+    <Grid Background="#FF5880E2" Margin="0,-10,0,0">
+        <Rectangle  Height="594" Stroke="Black" VerticalAlignment="Center" HorizontalAlignment="Left" Width="350" Fill="#FF3A3144"/>
+        <Rectangle  HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Fill="#FFC3A3E6" Margin="0,-1,0,0"/>
+        <Button x:Name="btnBack"  Foreground="White" FontSize="20" VerticalAlignment="Top" Content="Medicine" HorizontalAlignment="Left" Margin="28,73,0,0" Height="69" Width="296" Background="#463190" Click="btnBack_Click"/>
+
+        <Button x:Name="btnBack_Copy"  Foreground="White" FontSize="20" Content="Quantity Of Deseases" Margin="32,274,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="75" Width="298" Background="#463190" Click="btnBack_Copy_Click"/>
+
+
+        <Button x:Name="QuantityOfCalls" Foreground="White" FontSize="20" Content="Quantity Of Calls" Margin="32,169,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="QuantityOfCalls_Click" Width="298" Height="73" Background="#463190"/>
+
+
+        <Button x:Name="btnBack_Copy2" Margin="32,384,0,0" Foreground="White" FontSize="20" VerticalAlignment="Top" Content="Info about doctors" HorizontalAlignment="Left" Height="75" Width="297"  Background="#463190" Click="btnBack_Copy2Click"/>
+
+        <Ellipse x:Name="Logo" 
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Center"
+                     Width="390" 
+                     Margin="450,0,0,0" Height="362" 
+                    >
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="C:\Users\VOVAN\source\repos\Medical cooperative information system\Medical cooperative information system\Images\Logo\logo.png"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Label Content="Admin panel" FontFamily="Century Schoolbook" FontSize="44" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Margin="32,1,0,0" Width="290"/>
+        <Button x:Name="btnBack_Copy1" Margin="32,489,0,0" Foreground="White" FontSize="20" VerticalAlignment="Top" Content="OtherSide Effect" HorizontalAlignment="Left" Height="75" Width="297"  Background="#463190" Click="btnBack_Copy2_Click"/>
+    </Grid>
+</Window>
